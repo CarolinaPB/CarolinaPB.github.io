@@ -12,7 +12,7 @@ readme_index:
   
 remote_theme: CarolinaPB/theme
 
-title: Carolina Barros
+# title: Carolina Barros
 description: A palce for sharing bioinformatics pipelines and tips
 url: "CarolinaPB.github.io" # the base hostname & protocol for your site
 
