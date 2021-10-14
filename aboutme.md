@@ -1,6 +1,6 @@
 ---
 layout: page
-subtitle: About me
+title: About me
 ---
 
 I am a Bioinformatics Junior Researcher at the Animal Breeding and Genomics group, Wageningen University.  
