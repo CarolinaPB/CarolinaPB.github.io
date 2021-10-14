@@ -7,4 +7,5 @@ toc:
         url: /population-mapping
       - page: Population mapping and SV calling
         url: /population-structural-var-calling-smoove
-
+- title: About
+  url: /aboutme
