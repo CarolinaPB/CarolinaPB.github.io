@@ -29,3 +29,11 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
+
+collections: # https://jekyllrb.com/docs/collections
+  - posts # things in the _posts folder are now a collection accessible via site.writing
+
+
+include:  # kludgy solution: Jekyll ignores underscore-prepended folders at write-time yet needs
+  # underscores for collections, so a collection of written pages needs to be specifically re-included.
+  - _posts
