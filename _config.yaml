@@ -1,0 +1,31 @@
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
+  - jekyll-redirect-from
+  - jekyll-readme-index
+
+readme_index:
+  enabled:          true
+  remove_originals: false
+  with_frontmatter: true
+  
+remote_theme: CarolinaPB/theme
+
+title: Carolina Barros
+description: A palce for sharing bioinformatics pipelines and tips
+url: "CarolinaPB.github.io" # the base hostname & protocol for your site
+
+
+collections: # https://jekyllrb.com/docs/collections
+  - posts
+
+include:  # kludgy solution: Jekyll ignores underscore-prepended folders at write-time yet needs
+  # underscores for collections, so a collection of written pages needs to be specifically re-included.
+  - _posts
+  
+timezone: "Amsterdam"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
