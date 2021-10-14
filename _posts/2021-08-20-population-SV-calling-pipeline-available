@@ -1,0 +1,15 @@
+---
+layout: post
+title: Population structural variance calling pipeline is now available 
+tags: [snakemake, pipeline, bioinformatics, SV, structural variance, smoove]
+---
+
+The pipeline for population SV calling is now available.
+You can find a short description [here](https://carolinapb.github.io/population-structural-var-calling-smoove/). There you can also find the tools that the pipeline uses and the output.
+The pipeline can be found [here](https://github.com/CarolinaPB/population-structural-var-calling-smoove).  
+
+This snakemake pipeline relies on the [smoove pipeline](https://github.com/brentp/smoove) to perform SV calling. In addition to SV calling, it also runs [VEP](https://www.ensembl.org/info/docs/tools/vep/index.html) and performs PCA. In the end you get the output VCF file with the variants and a .tsv with summary of the SV information that can then be parsed by another program, such as R, python or excel.
+
+To use it, first follow the instructions on [running my snakemake pipelines](https://carolinapb.github.io/2021-06-23-how-to-run-my-pipelines/).
+
+<img src="https://github.com/CarolinaPB/population-structural-var-calling-smoove/blob/gh-pages/dag.png" class="img-responsive" alt="">
