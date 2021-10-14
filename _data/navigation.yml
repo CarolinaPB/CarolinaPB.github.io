@@ -1,2 +1,11 @@
-- link: /aboutme/
-  name: test
+toc:
+  - title: Pipelines
+    subfolderitems:
+      - page: Mapping and variant calling
+        url: /WUR_mapping-variant-calling
+      - page: Population mapping
+        url: /population-mapping
+      - page: Population mapping and SV calling
+        url: /population-structural-var-calling-smoove
+- title: About
+  url: /aboutme
