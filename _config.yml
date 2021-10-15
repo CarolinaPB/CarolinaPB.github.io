@@ -250,7 +250,7 @@ readme_index:
   remove_originals: false
   with_frontmatter: true
   
-remote_theme: CarolinaPB/theme
+# remote_theme: CarolinaPB/theme
   
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
