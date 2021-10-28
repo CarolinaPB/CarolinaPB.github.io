@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to fix smoove errors
-tags: [bioinformatics,smoove, svtyper, structural variance]
+tags: [bioinformatics,smoove, svtyper, structural variance, SR=0, bwa mem]
 ---
 
 In this post I will show how to solve some Smoove issues I came across.
