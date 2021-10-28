@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Smoove split read support error
-tags: [bioinformatics, smoove, SR, split-reads]
+tags: [bioinformatics, smoove, SR, split-reads, bwa, SV, structural variant calling]
 comments: true
 ---
 
