@@ -9,6 +9,8 @@ When mapping reads with `bwa mem`, if you use the `-M` flag, the split reads are
 If you don't use split-read support in your analysis, you can run smoove as usual, if you want split-read support values in your structural variant file you can use the following solution.  
 This solution was created by Martijn Derks.
 > It requires python 2, and the pysam and argparse packages as well as samtools
+
+
 ```
 module load samtools
 
