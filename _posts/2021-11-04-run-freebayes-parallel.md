@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nanopore assembly and variant calling pipeline is now available
+title: Parallel freebayes (snakemake rule)
 tags: [bioinformatics, freebayes, parallel, snakemake]
 ---
 
