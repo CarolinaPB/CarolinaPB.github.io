@@ -60,4 +60,4 @@ Make sure that your freebayes-parallel and fasta_generate_regions.py scripts are
 In the first line of the command ("{params.scripts_dir}/freebayes-parallel.sh <({params.scripts_dir}/fasta_generate_regions.py {input.ref}.fai {params.chunksize) **2**") the number **2** represents the number of threads to be used. Freebayes is also run with a few options `--use-best-n-alleles 4 --min-base-quality 10 --min-alternate-fraction 0.2 --haplotype-length 0 --ploidy 2 --min-alternate-count 2`. You can leave them, remove or adapt to your needs. The resulting VCF is also filtered for `QUAL > 20`.  
 Input and output can be chosen freely.
 
-With this rule you avoid the `vcflib` problem in the [Freebayes snakemake wrapper](https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/freebayes.html) and use a simplified version of this wrapper.
+With this rule you avoid the `vcflib` problem in the [Freebayes snakemake wrapper](https://snakemake-wrappers.readthedocs.io/en/stable/wrappers/freebayes.html) and use a simplified version of this wrapper. Using Freebayes in parallel significantly decreases computational time.
