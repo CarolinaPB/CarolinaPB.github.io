@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Parallel freebayes (snakemake rule)
+title: Run Freebayes in parallel
 tags: [bioinformatics, freebayes, parallel, snakemake]
 ---
 
