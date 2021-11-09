@@ -41,7 +41,7 @@ Then small script starts by creating two bam files, one with discordant reads an
 ```
 python bamgroupreads.py -f -M -i <sample>.bam | samblaster --ignoreUnmated -M -a -e -d <sample>.disc.sam -s <smoove call output dir>/<sample>.split.sam -o /dev/null
 ```
-I tried create sorted bam files from these `split` and `disc` bam files and use them with smoove, but I would always got this error:
+I tried create sorted bam files from these `split` and `disc` bam files and use them with smoove, but I would always get this error:
 ```
 panic: sam: duplicate program name: line 618: "@PG\tID:SAMBLASTER\tVN:0.1.26\tCL:samblaster -i stdin -o /dev/null -M --acceptDupMarks --excludeDups --ignoreUnmated -d <smoove output dir>/<sample>.disc.sam -s <smoove output dir>/<sample>.split.sam --maxSplitCount 2 --maxUnmappedBases 50 --minIndelSize 50 --minNonOverlap 20"
 ```
