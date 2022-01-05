@@ -42,8 +42,32 @@ First you'll need to do some set up. Go to the pipeline's directory.
 
 ## Installation 
 
-Install `conda` if you don't have it
+Install `conda` if you don't have it  
+_Update 05/01/2022:_  
+Here I show how to install miniconda in a linux system  
+[Download installer](https://docs.conda.io/en/latest/miniconda.html)  
+[Installation instructions](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)  
+1. Download the installer to your home directory. Choose the version according to your operating system. You can right click the link, copy and download with
+```
+wget <link>
+```
+At the time of writing this update, for me it would be:
+```
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
 
+To install miniconda, run:
+```
+bash <installer name>
+```
+installer name could be `Miniconda3-latest-Linux-x86_64.sh`
+
+Set up the conda channels in this order:
+```
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+```
 ### Create conda environment
 
 ```
