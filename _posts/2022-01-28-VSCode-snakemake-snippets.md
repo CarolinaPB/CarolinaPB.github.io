@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Use Snakemake snippets in VS Code
-tags: [snakemake, Virtual Studio Code, snippets, bioinformatics]
+title: Use Snakemake snippets in Visual Studio Code
+tags: [snakemake, Visual Studio Code, snippets, bioinformatics]
 ---
 
-Writting a Snakemake pipeline can be quite repetitive, you add rule after rule and they all follow the same format. To make it easier and faster to write a Snakemake pipeline I created [this snippets file](https://github.com/CarolinaPB/Bioinfo_scripts/blob/main/snakemake_rule.code-snippets) in Virtual Studio Code (it may also be possible in other editors). Snippets work as text replacement. You just need to start typing the word associated with the snippet, hit `enter`, and the word will be replaced by the associated piece of code.  
+Writting a Snakemake pipeline can be quite repetitive, you add rule after rule and they all follow the same format. To make it easier and faster to write a Snakemake pipeline I created [this snippets file](https://github.com/CarolinaPB/Bioinfo_scripts/blob/main/snakemake_rule.code-snippets) in Visual Studio Code (it may also be possible in other editors). Snippets work as text replacement. You just need to start typing the word associated with the snippet, hit `enter`, and the word will be replaced by the associated piece of code.  
 To create a snippets file in VS Code you go to `file` -> `Preferences` -> `User Snippets`, then you choose your language, in this case `snakemake`. The snippets that you create will be available when you have a snakemake file open.  
 Once you have created the snippets, to use them you just need to start typing the prefix and hit `enter`.
 
@@ -144,4 +144,4 @@ group:
 }
 ```
 
-To read more about snippets in VS Code: https://code.visualstudio.com/docs/editor/userdefinedsnippets
+To read more about snippets in Visual Studio Code: https://code.visualstudio.com/docs/editor/userdefinedsnippets
