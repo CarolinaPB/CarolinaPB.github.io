@@ -4,7 +4,7 @@ title: Automatically query Ensembl rapid release homologue page
 tags: [bioinformatics, ensembl, homologue, webscraping]
 ---
 
-Here I share a script to automatically query the ensembl rapid release page for homologues (from a couple of species) of a given list of genes (from one species). 
+Here I share a [script](https://github.com/CarolinaPB/Bioinfo_scripts/blob/main/ensembl_rapidrelease_homologue_query.py) to automatically query the ensembl rapid release page for homologues (from a couple of species) of a given list of genes (from one species). 
 
 Usage:
 ```sh
