@@ -3,8 +3,9 @@ layout: page
 subtitle: About me
 ---
 
-I am a Bioinformatics Junior Researcher at the Animal Breeding and Genomics group, Wageningen University.  
-I'm currently working on a new turkey genome, pipeline development, and supporting different projects.
+I'm currently working as a bioinformatician at the Tytgat & Kemmeren groups, Prinses Máxima Centrum for Paediatric Oncology, in the Netherlands. 
+At the Prinses Máxima Centrum, together with my colleagues, I investigate the potential of liquid biopsies as a diagnostic and prognostic tool. For this purpose, we compare the somatic aberrations found in cfDNA with the ones found in the tumor biopsy of the same patient.
 
-I enjoy coding, especially in Python and R, as well as creating Snakemake pipelines for different bioinformatics analysis.  
-In this site I will share some of the pipelines I develop, as well as some tips I come across.
+I have a passion for programming, data analysis and visualisation. In addition, I believe it is important to share your knowledge and help your fellow researchers, that's why I share my pipelines and other useful code on my Github page.
+
+Due to the nature of my work at the Prinses Máxima Center, I haven’t been able to update my blog recently, though I still update my catch-all document with useful one liners ([Link](https://github.com/CarolinaPB/Bioinfo_scripts/blob/main/snippets.sh)).
