@@ -16,6 +16,7 @@ author: Carolina Pita Barros
 
 navbar-links:
   About Me: "aboutme"
+  Featured on: "featured_on"
   Pipelines:
     - Mapping and variant calling (short reads): https://carolinapb.github.io/WUR_mapping-variant-calling/
     - Population SV calling: https://carolinapb.github.io/population-structural-var-calling-smoove/
