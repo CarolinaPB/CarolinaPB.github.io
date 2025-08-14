@@ -16,4 +16,4 @@ These plots show the mean coverage per genomic region (blue line) and the CNA pr
 
 The app uses the `<SAMPLE>.wf_cnv.vcf.gz` and `<SAMPLE>.regions.bed.gz` from the wf-human-variation output.
 
-![App overview](images/app.png)
+![App overview](https://raw.githubusercontent.com/CarolinaPB/visualise_cnv_wf-human-variation/main/images/app.png)
